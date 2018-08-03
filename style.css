@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+header{
+	width: 100%;
+	background: #000;
+	display: flex;
+}
+.header_logo{
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 800;
+	font-size: 24px;
+	cursor: pointer;
+	margin-top: 56px;
+	margin-left: 8%; 
+}
+nav{
+	margin-top: 56px;
+	margin-left: 29%;
+}
+.topnav a{
+	color: #fff;
+	text-align: center;
+	padding: 12px 16px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.topnav a:hover{
+	border-bottom: 3px solid #fcac45;
+}
+
+.topnav .icon{
+	display: none;
+}
+main{
+	display: flex;
+	flex-direction: column ;
+	width: 100%;
+}
+main .main_welcome{
+	background: #000;
+	text-align: center;
+	padding: 200px 0 410px 0;
+}
+
+main .main_welcome p{
+	color: #999999;
+	font-size: 20px;
+}
+main .main_welcome h1{
+	color: #999999;
+	font-size: 44px;
+}
+.my_page{
+	color: #fcac45;
+}
+.wrapper{
+	width: 76%;
+	margin: 0 auto;
+}
+
+.main_about{
+	display: flex;
+	padding: 100px 0 100px 0;
+}
+.about_right{
+	margin-left: 175px ;
+}
+.about_right h1{
+	display: inline-block;
+	border-bottom: 3px solid #fcac45;
+	padding-bottom: 20px;
+}
+.about_right p{
+	margin: 30px 0 50px 0;
+	color: #6c6c6c;
+}
+.about_right li{
+	background: url(img/mark.png) 0px no-repeat;
+	padding-left: 25px;
+	margin-top: 10px;
+}
+.my_hobby{
+	background: #000;
+	text-align: center;
+	padding: 100px 0 165px 0;
+	color: #fff;
+}
+.my_hobby h1{
+	font-size: 44px;
+	padding-bottom: 30px;
+}
+.line {
+	width: 100px;
+	height: 3px;
+	background: #fcac45;
+	position: relative;
+	left: 46%;
+	margin-bottom: 80px;
+}
+.photo{
+	background: #d7d7d7;
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+	margin: 20px auto;
+}
+.hobby{
+	display: flex;
+}
+.card{
+	margin: 0 40px;
+}
+.name{
+	font-size: 20px;
+	margin-bottom: 7px;
+}
+.why{
+	font-size: 16px;
+	margin-bottom: 35px;
+}
+.card_friends{
+	text-align: center;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-column-gap: 20px;
+}
+.friends h1{
+	text-align: center;
+	padding: 50px 0 30px 0;
+}
+.friends p{
+	color: #6c6c6c;
+	margin-bottom: 100px;
+}
+.card_freind h4{
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
