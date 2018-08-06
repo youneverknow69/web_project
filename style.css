@@ -5,9 +5,9 @@
 a{
 	text-decoration: none;
 }
-/*li{
+li{
 	list-style: none;
-}*/
+}
 body{
 	font-family: 'Open Sans', sans-serif;
 }
@@ -29,7 +29,7 @@ nav{
 	margin-top: 56px;
 	margin-left: 29%;
 }
-.topnav ul{
+.topnav li{
 	display: flex;
 	justify-content: center;
 	color: #fff;
