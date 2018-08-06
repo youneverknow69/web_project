@@ -24,11 +24,15 @@
 	font-size: 24px;
 	cursor: pointer;
 	margin-top: 56px;
+<<<<<<< HEAD
 	margin-left: 8%; 
+=======
+>>>>>>> 93917439d5c466b7a16527ff9f5f1c07f5c90fee
 	margin-left: 56px;
 }
 nav{
 	margin-top: 56px;
+<<<<<<< HEAD
 	margin-left: 29%;
 	margin-right: 56px;
 }
@@ -37,6 +41,17 @@ nav{
 	flex-direction: row;
 }
  .topnav li{
+=======
+	margin-right: 56px;
+}
+
+.topnav ul {
+	display: flex;
+	flex-direction: row;
+}
+
+.topnav li{
+>>>>>>> 93917439d5c466b7a16527ff9f5f1c07f5c90fee
 	justify-content: center;
 	color: #fff;
 	text-align: center;
@@ -333,7 +348,3 @@ footer{
 		text-align: center;
 	}
 }
-
-
-
-
