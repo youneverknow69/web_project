@@ -184,7 +184,7 @@ main .main_welcome h1:after{
 	margin-top: 10px;
 }
 
-.card_freind img{
+.card_friends img{
 	border-radius: 100px;
 	box-shadow: 0 0 0 3px #fcac45, 0 0 13px #333;
 	width: 125px;
@@ -202,7 +202,7 @@ main .main_welcome h1:after{
 	margin-bottom: 15px;
 }
 
-.smain_skills img{
+.main_skills img{
 	display: inline-block;
 	margin-left: 30px;
 	margin-top: 10px;
@@ -380,7 +380,7 @@ footer{
 	.hobby{
 		flex-direction: column;
 	}
-	.card_freinds{
+	.card_friends{
 		grid-template-columns: auto;
 	}
 }
