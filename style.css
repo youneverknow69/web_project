@@ -14,6 +14,8 @@
  	font-family: 'Open Sans', sans-serif;
  }
 
+/*header*/
+
 header{
 	width: 100%;
 	background: #000;
@@ -45,6 +47,8 @@ nav{
 .topnav .icon{
 	display: none;
 }
+
+/*main welcome*/
 
 main{
 	display: flex;
@@ -81,6 +85,8 @@ main .main_welcome h1:after{
 	margin: 0 auto;
 }
 
+/*about me*/
+
 .main_about{
 	display: flex;
 	padding: 100px 0 100px 0;
@@ -115,6 +121,68 @@ main .main_welcome h1:after{
 .mw-100{
 	min-width: 100%;
 }
+
+/*my skills*/
+
+.main_skills{
+	display: inline-block;
+	background: #000;
+	padding: 50px 0 60px 0;
+	color: #fff;
+	text-align: center;
+}
+.main_skills h1{
+	margin-bottom: 15px;
+}
+
+.main_skills img{
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+.contact_wrapper{
+	width: 753px;
+	margin: 0 auto;
+	color: #636363;
+}
+
+.red{
+	color: red;
+}
+
+/*my friends*/
+
+.card_friends{
+	text-align: center;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-column-gap: 20px;
+}
+
+.friends h1{
+	text-align: center;
+	padding: 50px 0 15px 0;
+}
+
+.friends p{
+	color: #6c6c6c;
+	margin-bottom: 100px;
+	margin-top: 20px;
+}
+
+.card_freind h4{
+	margin-top: 10px;
+}
+
+.card_friends img{
+	border-radius: 100px;
+	box-shadow: 0 0 0 3px #fcac45, 0 0 13px #333;
+	width: 125px;
+	height: 125px;
+}
+
+/*my hobby*/
 
 .my_hobby{
 	background: #000;
@@ -162,61 +230,7 @@ main .main_welcome h1:after{
 	margin-bottom: 35px;
 }
 
-.card_friends{
-	text-align: center;
-	display: grid;
-	grid-template-columns: auto auto auto auto;
-	grid-column-gap: 20px;
-}
-
-.friends h1{
-	text-align: center;
-	padding: 50px 0 15px 0;
-}
-
-.friends p{
-	color: #6c6c6c;
-	margin-bottom: 100px;
-	margin-top: 20px;
-}
-
-.card_freind h4{
-	margin-top: 10px;
-}
-
-.card_friends img{
-	border-radius: 100px;
-	box-shadow: 0 0 0 3px #fcac45, 0 0 13px #333;
-	width: 125px;
-	height: 125px;
-}
-
-.main_skills{
-	display: inline-block;
-	background: #000;
-	padding: 50px 0 60px 0;
-	color: #fff;
-	text-align: center;
-}
-.main_skills h1{
-	margin-bottom: 15px;
-}
-
-.main_skills img{
-	display: inline-block;
-	margin-left: 30px;
-	margin-top: 10px;
-}
-
-.contact_wrapper{
-	width: 753px;
-	margin: 0 auto;
-	color: #636363;
-}
-
-.red{
-	color: red;
-}
+/*contact form*/
 
 .contact_form{
 	padding: 30px 0 50px 0;
@@ -285,6 +299,8 @@ h1:after{
 	padding-bottom: 10px;
 	border-bottom: 3px solid #fcac45;
 }
+
+/*footer*/
 
 footer{
 	width: 100%;
@@ -384,5 +400,3 @@ footer{
 		grid-template-columns: auto;
 	}
 }
-
-
